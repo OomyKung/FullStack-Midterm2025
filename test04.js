@@ -1,4 +1,5 @@
 // Made by : Me
+// โจทย์นี้ให้ทำการแปลงเมทริกซ์ (Matrix) โดยสลับแถวกับคอลัมน์
 function transposeMatrix(matrix){
     if (matrix.length <= 1) return "Matrix length is too low!"
     const rows = matrix.length;

@@ -1,4 +1,6 @@
 // Made by : Me (Note : This is a LeetCode Problem)
+// หา Palindrome ที่ยาวที่สุดในสตริงที่กำหนด
+// Palindrome คือ สตริงที่อ่านจากด้านหน้าและด้านหลังเหมือนกัน เช่น "racecar" หรือ "level"
 function findLongestPalindrome(inputStr){
     let bestStartIndex = 0;
     let bestEndIndex = 0;

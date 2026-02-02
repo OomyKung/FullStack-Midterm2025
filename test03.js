@@ -1,4 +1,5 @@
 // Made by : Me
+// จัดกลุ่มข้อมูลสินค้าในคลังและสรุปยอดรวมของสินค้าที่มียอดขาย มากกว่าเกณฑ์ที่กำหนด
 function groupAndSummarize(items,groupKey,valueKey,threshold){
     const inventoryMap = new Map();
     for (sale of items){

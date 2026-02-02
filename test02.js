@@ -1,4 +1,6 @@
 // Made by : ALIF WAEHAYEE
+// รวมคะแนนนักเรียนจากหลายวิชาและคำนวณค่าเฉลี่ยคะแนนของแต่ละคน 
+// ส่งคืนค่าเป็น Object ที่มีชื่อ นักเรียน คะแนนทั้งหมด และค่าเฉลี่ย
 function mergeStudentScores(scoresList) {
     let merge_obj = []
     for (let records of scoresList) {

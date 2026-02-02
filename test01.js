@@ -1,4 +1,6 @@
 // Made by : ALIF WAEHAYEE
+// หาเลขที่มีความถี่ในการปรากฏตัวมากที่สุดในอาเรย์ และถ้ามีหลายเลขที่มีความถี่เท่ากัน 
+// ให้คืนค่าเลขที่มีค่ามากที่สุด พร้อมทั้งตำแหน่งที่เลขนั้นปรากฏในอาเรย์
 function findMostFrequentNumber(numbers) {
     let set_numbers = new Set(numbers);
     let freq_numbers = []
